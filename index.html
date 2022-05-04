@@ -1,40 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <title>bootstrap website</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>bootstrap website </title>
-</head>
-
-<body>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-        <div class="container">
-            <a href="#" class="navbar-brand">Logo </a>
+      <div class="container">
+        <a href="#" class="navbar-brand">Logo </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#learn" class="nav-link">portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#questions" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#instructors" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto nav nav-pills">
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item-dropdown">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</body>
-<script src="/node_modules//bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+    <section class="bg p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      <div class="container my-4">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class=".d-flex">
+            <h1 class="pe-3">I’m Alexandra Glad to see you! </h1>
+            <p class="lead my-4">
+              I’m a software developer! I can help you build a product , feature or website Look
+              through some of my work and experience! If you like what you see and have a project
+              you need coded, don’t hestiate to contact me.
+            </p>
+             <p><a href="#">LET'S CONNECT</p></a>
+            <ul class=".flex-row text-decoration-none">
+                <li> <img src="./Icons/Git-Hub-icon-Footer.svg">
+                </li>
+                <li>
+                    <img src="./Icons/Icon-Linkedin.svg">
+                </li>
+                <li>
+                    <img src="./Icons/Icon-number-3-Footer.svg">
+                </li>
+                <li>
+                    <img src="./Icons/Microverse-Icon-Footer.svg">
+                </li>     
+            </ul>
+          </div>
+          <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="" />
+        </div>
+      </div>
+      <div>
+      </div>
+    </section>
+  </body>
+  <script src="/node_modules//bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </html>
